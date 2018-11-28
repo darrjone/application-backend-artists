@@ -2,11 +2,18 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        <title>Welcome to my project</title>
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        <h1>Welcome to my project</h1>
+        <p>
+            Below is a list of api calls you can call.
+        </p>
+        <ul>
+            <li>/artists</li>
+            <li>/artists/{token}</li>
+            <li>/albums/{token}</li>
+        </ul>
+        <br/>
     </body>
 </html>
